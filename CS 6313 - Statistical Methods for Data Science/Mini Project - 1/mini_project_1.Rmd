@@ -1,12 +1,12 @@
 ---
 title: "Mini Project - 1"
 
-output:  md_document:
-    variant: markdown_github
+output:html_document:
+    keep_md: true
 ---
 
 
-```{r global_options}
+```{r, echo = FALSE}
 knitr::opts_chunk$set(fig.path='Figs/')
 ```
 
