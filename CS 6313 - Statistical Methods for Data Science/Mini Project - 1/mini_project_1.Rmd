@@ -1,11 +1,7 @@
 ---
 title: "Mini Project - 1"
-output: 
-    keep_md: true
-    rmarkdown::github_document
-    fig_height: 4
-    highlight: pygments
-    theme: spacelab
+
+output:  md_document
 ---
 
 
@@ -106,7 +102,7 @@ c_part <- function(number_of_points, number_of_times){
 }
 ```
 
-![Tabular format](Capture.PNG)
+![Tabular format](Figs/Capture.PNG)
 Mean and the P(X $>$ 15) is more accurate when the number of points increases. Mean of 100k points is lot closer to 15 than mean of 1k points. Also for P(X $>$ 15), the value is lot closer to 0.396 in case of 100k points as compared to 1k points.
  
 ```{r}
